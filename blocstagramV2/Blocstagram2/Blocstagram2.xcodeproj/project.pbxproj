@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		6CDFBB67CA19B630CB13C311 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F0D96B9A80CBC224BA8689 /* libPods.a */; };
+		FA970BE81B34E03600D2F434 /* angle-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BDF1B34E03600D2F434 /* angle-mask.png */; };
+		FA970BE91B34E03600D2F434 /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE01B34E03600D2F434 /* angle-mask@2x.png */; };
+		FA970BEA1B34E03600D2F434 /* angle-mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE11B34E03600D2F434 /* angle-mask@3x.png */; };
+		FA970BEB1B34E03600D2F434 /* heart-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE21B34E03600D2F434 /* heart-empty.png */; };
+		FA970BEC1B34E03600D2F434 /* heart-empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE31B34E03600D2F434 /* heart-empty@2x.png */; };
+		FA970BED1B34E03600D2F434 /* heart-empty@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE41B34E03600D2F434 /* heart-empty@3x.png */; };
+		FA970BEE1B34E03600D2F434 /* heart-full.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE51B34E03600D2F434 /* heart-full.png */; };
+		FA970BEF1B34E03600D2F434 /* heart-full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE61B34E03600D2F434 /* heart-full@2x.png */; };
+		FA970BF01B34E03600D2F434 /* heart-full@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA970BE71B34E03600D2F434 /* heart-full@3x.png */; };
+		FA970BF31B34E49E00D2F434 /* CircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970BF21B34E49E00D2F434 /* CircleSpinnerView.m */; };
+		FA970BF61B34EE2F00D2F434 /* LikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FA970BF51B34EE2F00D2F434 /* LikeButton.m */; };
 		FAA2E87D1B2E510500924E74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2E87C1B2E510500924E74 /* main.m */; };
 		FAA2E8801B2E510500924E74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA2E87F1B2E510500924E74 /* AppDelegate.m */; };
 		FAA2E8881B2E510500924E74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2E8871B2E510500924E74 /* Images.xcassets */; };
@@ -37,6 +48,19 @@
 		06F0D96B9A80CBC224BA8689 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C369AC44F8CA3055FEB4758E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DE05278DF1F638EBFFE0478D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FA970BDF1B34E03600D2F434 /* angle-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask.png"; sourceTree = "<group>"; };
+		FA970BE01B34E03600D2F434 /* angle-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@2x.png"; sourceTree = "<group>"; };
+		FA970BE11B34E03600D2F434 /* angle-mask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "angle-mask@3x.png"; sourceTree = "<group>"; };
+		FA970BE21B34E03600D2F434 /* heart-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-empty.png"; sourceTree = "<group>"; };
+		FA970BE31B34E03600D2F434 /* heart-empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-empty@2x.png"; sourceTree = "<group>"; };
+		FA970BE41B34E03600D2F434 /* heart-empty@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-empty@3x.png"; sourceTree = "<group>"; };
+		FA970BE51B34E03600D2F434 /* heart-full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-full.png"; sourceTree = "<group>"; };
+		FA970BE61B34E03600D2F434 /* heart-full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-full@2x.png"; sourceTree = "<group>"; };
+		FA970BE71B34E03600D2F434 /* heart-full@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-full@3x.png"; sourceTree = "<group>"; };
+		FA970BF11B34E49E00D2F434 /* CircleSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSpinnerView.h; sourceTree = "<group>"; };
+		FA970BF21B34E49E00D2F434 /* CircleSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSpinnerView.m; sourceTree = "<group>"; };
+		FA970BF41B34EE2F00D2F434 /* LikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeButton.h; sourceTree = "<group>"; };
+		FA970BF51B34EE2F00D2F434 /* LikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeButton.m; sourceTree = "<group>"; };
 		FAA2E8771B2E510500924E74 /* Blocstagram2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2E87B1B2E510500924E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA2E87C1B2E510500924E74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,8 +150,12 @@
 			children = (
 				FAA2E87E1B2E510500924E74 /* AppDelegate.h */,
 				FAA2E87F1B2E510500924E74 /* AppDelegate.m */,
+				FA970BF11B34E49E00D2F434 /* CircleSpinnerView.h */,
+				FA970BF21B34E49E00D2F434 /* CircleSpinnerView.m */,
 				FAA2E8B51B2E52B000924E74 /* ImagesTableViewController.h */,
 				FAA2E8B61B2E52B000924E74 /* ImagesTableViewController.m */,
+				FA970BF41B34EE2F00D2F434 /* LikeButton.h */,
+				FA970BF51B34EE2F00D2F434 /* LikeButton.m */,
 				FAA2E8DD1B31077D00924E74 /* LoginViewController.h */,
 				FAA2E8DE1B31077D00924E74 /* LoginViewController.m */,
 				FAA2E8D71B2F6C1200924E74 /* DataSource.h */,
@@ -143,6 +171,15 @@
 				FAA2E8CE1B2F672100924E74 /* User.h */,
 				FAA2E8CF1B2F672100924E74 /* User.m */,
 				FAA2E8871B2E510500924E74 /* Images.xcassets */,
+				FA970BDF1B34E03600D2F434 /* angle-mask.png */,
+				FA970BE01B34E03600D2F434 /* angle-mask@2x.png */,
+				FA970BE11B34E03600D2F434 /* angle-mask@3x.png */,
+				FA970BE21B34E03600D2F434 /* heart-empty.png */,
+				FA970BE31B34E03600D2F434 /* heart-empty@2x.png */,
+				FA970BE41B34E03600D2F434 /* heart-empty@3x.png */,
+				FA970BE51B34E03600D2F434 /* heart-full.png */,
+				FA970BE61B34E03600D2F434 /* heart-full@2x.png */,
+				FA970BE71B34E03600D2F434 /* heart-full@3x.png */,
 				FAA2E8891B2E510500924E74 /* LaunchScreen.xib */,
 				FAA2E87A1B2E510500924E74 /* Supporting Files */,
 			);
@@ -257,7 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA970BED1B34E03600D2F434 /* heart-empty@3x.png in Resources */,
+				FA970BEA1B34E03600D2F434 /* angle-mask@3x.png in Resources */,
+				FA970BEC1B34E03600D2F434 /* heart-empty@2x.png in Resources */,
 				FAA2E88B1B2E510500924E74 /* LaunchScreen.xib in Resources */,
+				FA970BEF1B34E03600D2F434 /* heart-full@2x.png in Resources */,
+				FA970BF01B34E03600D2F434 /* heart-full@3x.png in Resources */,
+				FA970BEB1B34E03600D2F434 /* heart-empty.png in Resources */,
+				FA970BE81B34E03600D2F434 /* angle-mask.png in Resources */,
+				FA970BEE1B34E03600D2F434 /* heart-full.png in Resources */,
+				FA970BE91B34E03600D2F434 /* angle-mask@2x.png in Resources */,
 				FAA2E8881B2E510500924E74 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,12 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADE8A761B33689B000872A7 /* MediaFullScreenViewController.m in Sources */,
+				FA970BF31B34E49E00D2F434 /* CircleSpinnerView.m in Sources */,
 				FAA2E8D01B2F672100924E74 /* User.m in Sources */,
 				FAA2E8D61B2F6A7600924E74 /* Comment.m in Sources */,
 				FAA2E8DC1B2F816100924E74 /* MediaTableViewCell.m in Sources */,
 				FAA2E8D31B2F692600924E74 /* Media.m in Sources */,
 				FAA2E8801B2E510500924E74 /* AppDelegate.m in Sources */,
 				FAA2E8DF1B31077D00924E74 /* LoginViewController.m in Sources */,
+				FA970BF61B34EE2F00D2F434 /* LikeButton.m in Sources */,
 				FAA2E8D91B2F6C1200924E74 /* DataSource.m in Sources */,
 				FAA2E87D1B2E510500924E74 /* main.m in Sources */,
 				FAA2E8B71B2E52B000924E74 /* ImagesTableViewController.m in Sources */,

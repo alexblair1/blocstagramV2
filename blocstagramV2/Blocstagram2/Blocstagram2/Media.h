@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "LikeButton.h"
 
 //why did we use the forward declaration @class and not #import? we could but it's generally poor practice to import custom classes inside a head file. tHe reason for this is that we can get into trouble with what's called a circular inclusion.
 //circular inclusion happens when two classes try to import each other. When this happens we get a compiler error. A circular inclusion can also happen indirectly: class a imports classb which imports class c which imports class d which imports class a-this would cause a circular inclusion errror. For now, understand that we are in the header file, and we shouldn't use #import here, use @class instead. 
@@ -31,6 +32,8 @@ typedef NS_ENUM(NSInteger, MediaDownloadState) {
 
 @property (nonatomic, strong) NSString *caption;
 @property (nonatomic, strong) NSArray *comments;
+
+@property (nonatomic, assign) LikeState likeState;
 
 - (instancetype) initWithDictionary:(NSDictionary *)mediaDictionary;
 
